@@ -3,3 +3,13 @@ sup
     vertical-align: super;
     font-size: smaller;
 }
+text{
+    color: silver;
+}
+body{
+ color:black;
+}
+#references{
+
+    color:aqua
+}
