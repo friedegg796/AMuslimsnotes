@@ -6,8 +6,13 @@ sup
 text{
     color: silver;
 }
+p1{
+color:blue;
+}
 body{
+
  color:black;
+ background-color: black;
 }
 #references{
 
