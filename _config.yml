@@ -1,21 +1,17 @@
 # site configuration
 
-theme: jekyll-theme-chirpy
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme 
 
 lang: en
 
 timezone: America/Florida
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-
-# main title
 title: A Muslim's School Notes
 
-# subtitle
-tagline: Blog
+tagline: Notes
 
-
-description: 
 
 # protocol & hostname for your site (it does not end with a '/')
 url: https://muslimnotes.github.io
@@ -35,8 +31,8 @@ social:
   email: hasnainalahiwork@gmail.com
   links:
     # first element serves as the copyright owner's link
-    - https://github.com/cgoldberg
-    - https://www.linkedin.com/in/cgoldberg
+    - https://github.com/friedegg796
+    - https://www.linkedin.com/in/hasnain-a-6481a0342/
 
 webmaster_verifications:
   google: U9-hCLAR44wY-5vEZSfl8iVgClFj5L0nuUgP8pdl2xo
