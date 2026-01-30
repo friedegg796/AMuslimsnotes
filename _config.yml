@@ -34,15 +34,7 @@ social:
     - https://github.com/friedegg796
     - https://www.linkedin.com/in/hasnain-a-6481a0342/
 
-webmaster_verifications:
-  google: U9-hCLAR44wY-5vEZSfl8iVgClFj5L0nuUgP8pdl2xo
 
-# end of `jekyll-seo-tag` settings
-
-# web analytics settings
-analytics:
-  google:
-    id: G-VDZPG2HGL4
 
 # color scheme setting
 # note: empty will follow the system prefer color by default,
@@ -66,7 +58,7 @@ assets:
 paginate: 15
 
 # base URL of your site
-baseurl: ""
+baseurl: "https://friedegg796.github.io/AMuslimsschoolnotes/"
 
 # ------------ DO NOT TOUCH MIGHT HAVE BAD THING HAPPEN ------------------
 
