@@ -1,4 +1,4 @@
-/* Got this from https://github.com/thelearn-tech/hacker-theme  */
+/* Got this from https://github.com/thelearn-tech/hacker-theme  Modified it a bit */
 body {
 margin: 0;
 padding: 0;
@@ -6,7 +6,7 @@ background-color: #1A1A1A;
 line-height: 1.5;
 font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
 }
-h1, h2, h3, h4, h5, h6, h7, h8 {
+h1, h2, h3, h4, h5, h6 {
 color: #B5E853;
 line-height: 1.5;
 font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
@@ -20,6 +20,27 @@ padding-right: 25px;
 text-align: center;
 font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
 }
+
+/* unvisited */
+a:link {
+  color: red;
+}
+
+/* visited  */
+a:visited {
+  color: green;
+}
+
+/* mouse over. Has to be put third  */
+a:hover {
+  color: hotpink;
+}
+
+/* selected. Has to be put last  */
+a:active {
+  color: blue;
+}
+
 .hr {
 border: 0;
 border-top: 2px dashed #B5E853;
@@ -95,11 +116,14 @@ white-space: nowrap;
 color: #FFFFFF;
 padding: 10px;
 }
+
 ul {list-style: none;}
-ul li::before {content: ">  "; color: #B5E853;}
+ul li::before {content: "> "; color: #B5E853;}
 ol {display: table; margin-left: 0; margin-right: auto; list-style-position: inside;}
+
 /*  font style  */
-.bold {font-weight: bold;}
+.bold {font-weight: bold;
+color: #B5E853;}
 .ital {font-style: italic;}
 .oblique {font-style: oblique;}
 .overline {text-decoration: overline;}
@@ -108,12 +132,27 @@ ol {display: table; margin-left: 0; margin-right: auto; list-style-position: ins
 .keyword {color: #E867E8; border: 1px solid gray; background-color: black; padding: 2px 2px; }
 .linkk {color: #6CBDEC; text-decoration: underline;}
 .w3-black,.w3-hover-black:hover{color:#BAB9B9!important;background-color:#000!important}
+
 /* margin for button */
 .leftmar {margin-left: 30px;}
+
 /* font colour*/
 .gray {color: #8D8D8D;}
 .green {color: #B5E853;}
+
 /* padding */
 .topp {padding-top: 10px;}
 .left {padding-left: 30px}
 .mediumsize {font-size: 19px;}
+
+/* my spacing */
+.bigspace {
+margin-top: 300px;
+}
+.medspace {
+margin-top: 150px;
+}
+
+/* I want things BIGGER */
+.medium{font-size: 15px;}
+
