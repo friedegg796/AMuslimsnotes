@@ -21,14 +21,15 @@ text-align: center;
 font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
 }
 
+/* links/a tags */
 /* unvisited */
 a:link {
-  color: red;
+  color: green;
 }
 
 /* visited  */
 a:visited {
-  color: green;
+  color: violet;
 }
 
 /* mouse over. Has to be put third  */
