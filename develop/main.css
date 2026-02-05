@@ -11,7 +11,6 @@ color: #B5E853;
 line-height: 1.5;
 font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
 text-align: center;
-margin: 0 0 20px;
 }
 h1{
   font-size: 50px
@@ -28,9 +27,11 @@ font-size: 23px;
 p {
 color: #FFFFFF;
 font-size: 19px;
-padding-right: 25px;
+width: 750px;
+padding: 15px;
+margin: 15px auto;
 text-align: center;
-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
+font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 /* links/a tags */
@@ -62,20 +63,11 @@ li {
 color: #FFFFFF;
 font-size: 19px;
 text-align: center;
-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
+margin: 15px auto;
+width: 750px;
+font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
-.button {
-text-decoration: none;
-text-align: left;
-background-color: #121212;
-color: white;
-border: 2px solid #000000;
-border-radius: 15px;
-padding: 10px 14px;
-font-size: 14px;
-display: inline-block;
-padding-left: 10px;
-}
+
 blockquote {
 border-left-style: dotted;
 border-left-width: 1px;
@@ -103,7 +95,14 @@ dt {
 color: #FFFFFF;
 text-align: center;
 font-weight: bold;
+margin: 15px auto;
+width: 750px;
 }
+dd{
+margin: 15px auto;
+width: 750px;
+}
+/* images  */
 .smallimg {
 background-attachment: fixed;
 background-position: left;
@@ -121,6 +120,7 @@ max-width: 100%;
 max-height: 100%;
 display: block;
 }
+
 .horizontalscroll {
 background-color: #242424;
 font-style: italic;
@@ -133,6 +133,19 @@ padding: 10px;
 ul {list-style: none;}
 ul li::before {content: "> "; color: #B5E853;}
 ol {display: table; margin-left: 0; margin-right: auto; list-style-position: inside;}
+
+.button {
+text-decoration: none;
+text-align: left;
+background-color: #121212;
+color: white;
+border: 2px solid #000000;
+border-radius: 15px;
+padding: 10px 14px;
+font-size: 14px;
+display: inline-block;
+padding-left: 10px;
+}
 
 /*  font style  */
 .bold {font-weight: bold;
@@ -156,7 +169,6 @@ color: #B5E853;}
 /* padding */
 .topp {padding-top: 10px;}
 .left {padding-left: 30px}
-.mediumsize {font-size: 19px;}
 
 /* my spacing */
 .bigspace {
