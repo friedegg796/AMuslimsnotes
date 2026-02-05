@@ -13,9 +13,21 @@ font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, mon
 text-align: center;
 margin: 0 0 20px;
 }
+h1{
+  font-size: 50px
+}
+h2{
+font-size: 35px;
+}
+h3{
+font-size: 28px;
+}
+h4{
+font-size: 23px;
+}
 p {
 color: #FFFFFF;
-font-size: 15px;
+font-size: 19px;
 padding-right: 25px;
 text-align: center;
 font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
@@ -39,7 +51,7 @@ a:hover {
 
 /* selected. Has to be put last  */
 a:active {
-  color: blue;
+  color: lightblue;
 }
 
 .hr {
@@ -48,7 +60,7 @@ border-top: 2px dashed #B5E853;
 }
 li {
 color: #FFFFFF;
-font-size: 15px;
+font-size: 19px;
 text-align: center;
 font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
 }
@@ -150,8 +162,12 @@ color: #B5E853;}
 .bigspace {
 margin-top: 300px;
 }
+
 .medspace {
 margin-top: 150px;
+}
+.smalspace{
+  margin-top: 75px;
 }
 
 /* I want things BIGGER */
