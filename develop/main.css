@@ -55,9 +55,9 @@ a:active {
   color: lightblue;
 }
 
-.hr {
+hr {
 border: 0;
-border-top: 2px dashed #B5E853;
+border-top: 2px dashed #c5ceb3;
 }
 li {
 color: #FFFFFF;
@@ -158,6 +158,12 @@ color: #B5E853;}
 .keyword {color: #E867E8; border: 1px solid gray; background-color: black; padding: 2px 2px; }
 .linkk {color: #6CBDEC; text-decoration: underline;}
 .w3-black,.w3-hover-black:hover{color:#BAB9B9!important;background-color:#000!important}
+.attention{
+  font-weight: bold;
+  color: #B5E853;
+  text-decoration: underline;
+}
+
 
 /* margin for button */
 .leftmar {margin-left: 30px;}
