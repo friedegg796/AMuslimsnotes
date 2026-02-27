@@ -1,193 +1,271 @@
 /* Got this from https://github.com/thelearn-tech/hacker-theme  Modified it a bit */
 body {
-margin: 0;
-padding: 0;
-background-color: #1A1A1A;
-line-height: 1.5;
-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1A;
+    line-height: 1.5;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    ;
 }
-h1, h2, h3, h4, h5, h6 {
-color: #B5E853;
-line-height: 1.5;
-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;;
-text-align: center;
+
+h1,h2,h3,h4,h5,h6 {
+    color: #B5E853;
+    line-height: 1.5;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    ;
+    text-align: center;
 }
-h1{
-  font-size: 50px
+
+h1 {
+    font-size: 50px
 }
-h2{
-font-size: 35px;
+
+h2 {
+    font-size: 35px;
 }
-h3{
-font-size: 28px;
+
+h3 {
+    font-size: 28px;
 }
-h4{
-font-size: 23px;
+
+h4 {
+    font-size: 23px;
 }
+
 p {
-color: #FFFFFF;
-font-size: 19px;
-width: 750px;
-padding: 15px;
-margin: 15px auto;
-text-align: center;
-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: #FFFFFF;
+    font-size: 19px;
+    width: 750px;
+    padding: 15px;
+    margin: 15px auto;
+    text-align: center;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 /* links/a tags */
 /* unvisited */
 a:link {
-  color: green;
+    color: green;
 }
 
 /* visited  */
 a:visited {
-  color: violet;
+    color: violet;
 }
 
 /* mouse over. Has to be put third  */
 a:hover {
-  color: hotpink;
+    color: hotpink;
 }
 
 /* selected. Has to be put last  */
 a:active {
-  color: lightblue;
+    color: lightblue;
 }
 
 hr {
-border: 0;
-border-top: 2px dashed #c5ceb3;
+    border: 0;
+    border-top: 2px dashed #c5ceb3;
 }
+
 li {
-color: #FFFFFF;
-font-size: 19px;
-text-align: center;
-margin: 15px auto;
-width: 750px;
-font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: #FFFFFF;
+    font-size: 19px;
+    text-align: center;
+    margin: 15px auto;
+    width: 750px;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 blockquote {
-border-left-style: dotted;
-border-left-width: 1px;
-border-left-color: gray;
-color: #8D8D8D;
-padding: 20px;
+    border-left-style: dotted;
+    border-left-width: 1px;
+    border-left-color: gray;
+    color: #8D8D8D;
+    padding: 20px;
 }
+
 td {
-color: #FFFFFF;
-border-spacing: 20px;
-text-align: left;
-padding: 8px;
+    color: #FFFFFF;
+    border-spacing: 20px;
+    text-align: left;
+    padding: 8px;
 }
+
 th {
-color: #FFFFFF;
-border-bottom: 1px dashed #B5E853;
-text-align: left;
-padding: 8px;
+    color: #FFFFFF;
+    border-bottom: 1px dashed #B5E853;
+    text-align: left;
+    padding: 8px;
 }
+
 dl {
-color: #FFFFFF;
-text-align: center;
+    color: #FFFFFF;
+    text-align: center;
 }
+
 dt {
-color: #FFFFFF;
-text-align: center;
-font-weight: bold;
-margin: 15px auto;
-width: 750px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px auto;
+    width: 750px;
 }
-dd{
-margin: 15px auto;
-width: 750px;
+
+dd {
+    margin: 15px auto;
+    width: 750px;
 }
+
 /* images  */
 .smallimg {
-background-attachment: fixed;
-background-position: left;
-background-repeat: no-repeat;
-background-size: cover;
-width: 100px;
-height: 100px;
+    padding: 15px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
 }
+
 .largeimg {
-background-attachment: fixed;
-background-position: left;
-background-repeat: no-repeat;
-background-size: cover;
-max-width: 100%;
-max-height: 100%;
-display: block;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
 
 .horizontalscroll {
-background-color: #242424;
-font-style: italic;
-overflow: auto;
-white-space: nowrap;
-color: #FFFFFF;
-padding: 10px;
+    background-color: #242424;
+    font-style: italic;
+    overflow: auto;
+    white-space: nowrap;
+    color: #FFFFFF;
+    padding: 10px;
 }
 
-ul {list-style: none;}
-ul li::before {content: "> "; color: #B5E853;}
-ol {display: table; margin-left: 0; margin-right: auto; list-style-position: inside;}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "> ";
+    color: #B5E853;
+}
+
+ol {
+    display: table;
+    margin-left: 0;
+    margin-right: auto;
+    list-style-position: inside;
+}
 
 .button {
-text-decoration: none;
-text-align: left;
-background-color: #121212;
-color: white;
-border: 2px solid #000000;
-border-radius: 15px;
-padding: 10px 14px;
-font-size: 14px;
-display: inline-block;
-padding-left: 10px;
+    text-decoration: none;
+    text-align: left;
+    background-color: #121212;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    padding: 10px 14px;
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 10px;
 }
 
 /*  font style  */
-.bold {font-weight: bold;
-color: #B5E853;}
-.ital {font-style: italic;}
-.oblique {font-style: oblique;}
-.overline {text-decoration: overline;}
-.strickthrough {text-decoration: line-through;}
-.underline {text-decoration: underline;}
-.keyword {color: #E867E8; border: 1px solid gray; background-color: black; padding: 2px 2px; }
-.linkk {color: #6CBDEC; text-decoration: underline;}
-.w3-black,.w3-hover-black:hover{color:#BAB9B9!important;background-color:#000!important}
-.attention{
-  font-weight: bold;
-  color: #B5E853;
-  text-decoration: underline;
+.bold {
+    font-weight: bold;
+    color: #B5E853;
+}
+
+.ital {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.strickthrough {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.keyword {
+    color: #E867E8;
+    border: 1px solid gray;
+    background-color: black;
+    padding: 2px 2px;
+}
+
+.linkk {
+    color: #6CBDEC;
+    text-decoration: underline;
+}
+
+.w3-black,
+.w3-hover-black:hover {
+    color: #BAB9B9 !important;
+    background-color: #000 !important
+}
+
+.attention {
+    font-weight: bold;
+    color: #B5E853;
+    text-decoration: underline;
 }
 
 
 /* margin for button */
-.leftmar {margin-left: 30px;}
+.leftmar {
+    margin-left: 30px;
+}
 
 /* font colour*/
-.gray {color: #8D8D8D;}
-.green {color: #B5E853;}
+.gray {
+    color: #8D8D8D;
+}
+
+.green {
+    color: #B5E853;
+}
 
 /* padding */
-.topp {padding-top: 10px;}
-.left {padding-left: 30px}
+.topp {
+    padding-top: 10px;
+}
+
+.left {
+    padding-left: 30px
+}
 
 /* my spacing */
 .bigspace {
-margin-top: 300px;
+    margin-top: 300px;
 }
 
 .medspace {
-margin-top: 150px;
+    margin-top: 150px;
 }
-.smalspace{
-  margin-top: 75px;
+
+.smalspace {
+    margin-top: 75px;
 }
 
 /* I want things BIGGER */
-.medium{font-size: 15px;}
-
+.medium {
+    font-size: 15px;
+}
