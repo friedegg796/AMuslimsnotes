@@ -147,7 +147,13 @@ dd {
     color: #FFFFFF;
     padding: 10px;
 }
-
+.icon{
+  padding: 30px;
+  font-size: 30px;
+  width: 75px;
+  text-align: center;
+  text-decoration: none;
+}
 
 ul {
     list-style: none;
@@ -216,12 +222,6 @@ ol {
     text-decoration: underline;
 }
 
-.w3-black,
-.w3-hover-black:hover {
-    color: #BAB9B9 !important;
-    background-color: #000 !important
-}
-
 .attention {
     font-weight: bold;
     color: #B5E853;
@@ -249,7 +249,13 @@ ol {
 }
 
 .left {
-    padding-left: 30px
+    padding-left: 30px;
+}
+.midleft{
+   padding-left: 250px;
+}
+.bigleft{
+   padding-left: 500px;
 }
 
 /* my spacing */
