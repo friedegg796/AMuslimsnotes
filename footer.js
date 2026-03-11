@@ -1,6 +1,6 @@
 // Function to define the footer HTML
 function insertFooter() {
-  return "<p>Created by Loaf</p>";
+  return "<p>Created by Loaf </p>";
 }
 
 // Wait for the HTML to be fully loaded before running
