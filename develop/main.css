@@ -8,7 +8,12 @@ body {
     ;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #B5E853;
     line-height: 1.5;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -75,6 +80,10 @@ li {
     margin: 15px auto;
     width: 750px;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+abbr {
+    cursor: help;
 }
 
 blockquote {
@@ -147,12 +156,13 @@ dd {
     color: #FFFFFF;
     padding: 10px;
 }
-.icon{
-  padding: 30px;
-  font-size: 30px;
-  width: 75px;
-  text-align: center;
-  text-decoration: none;
+
+.icon {
+    padding: 30px;
+    font-size: 30px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
 }
 
 ul {
@@ -251,11 +261,13 @@ ol {
 .left {
     padding-left: 30px;
 }
-.midleft{
-   padding-left: 250px;
+
+.midleft {
+    padding-left: 250px;
 }
-.bigleft{
-   padding-left: 500px;
+
+.bigleft {
+    padding-left: 500px;
 }
 
 /* my spacing */
@@ -274,4 +286,13 @@ ol {
 /* I want things BIGGER */
 .medium {
     font-size: 15px;
+}
+
+@media (max-width: 600px) {
+
+    /* Mobile view! */
+    p {
+        width: 100%;
+    }
+
 }
