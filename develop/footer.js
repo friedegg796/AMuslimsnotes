@@ -4,11 +4,11 @@ function insertFooter() {
         <hr>
         <p> Wanted to go <a href="./../../AMuslimsnotes/index.html">back?</a></p>
         <a class="icon" href="https://www.linkedin.com/in/hasnain-a-6481a0342/">
-            <img class="icon" src="./develop/images/linkedin.png" alt="Hasnain Alahi, Linkedin">
+            <img class="icon" src="./develop/images/linkedin.png" alt="Hasnain Alahi, LinkedIn">
         </a>
 
 
-        <a class="icon" href="./../../AMuslimsnotes/MISC/discord.html">
+        <a class="icon" href="./../../AMuslimsnotes/MISC/bio.html">
             <img class="icon" src="./develop/images/gmail.png" alt="awanderingmuslim2billion">
         </a>
 
