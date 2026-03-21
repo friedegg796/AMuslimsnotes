@@ -73,6 +73,36 @@ hr {
     border-top: 2px dashed #c5ceb3;
 }
 
+/* List things */
+ul {
+    list-style: none;
+}
+
+ol {
+    display: table;
+    margin-left: 0;
+    margin-right: auto;
+    list-style-position: inside;
+}
+
+dl {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+dt {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px auto;
+    width: 750px;
+}
+
+dd {
+    margin: 15px auto;
+    width: 750px;
+}
+
 li {
     color: #FFFFFF;
     font-size: 19px;
@@ -81,6 +111,13 @@ li {
     width: 750px;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
+
+ul li::before {
+    content: "• ";
+    color: #B5E853;
+}
+
+/* end of list things*/
 
 abbr {
     cursor: help;
@@ -108,23 +145,7 @@ th {
     padding: 8px;
 }
 
-dl {
-    color: #FFFFFF;
-    text-align: center;
-}
 
-dt {
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: bold;
-    margin: 15px auto;
-    width: 750px;
-}
-
-dd {
-    margin: 15px auto;
-    width: 750px;
-}
 
 /* images  */
 .smallimg {
@@ -165,21 +186,6 @@ dd {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-}
-
-ul li::before {
-    content: "> ";
-    color: #B5E853;
-}
-
-ol {
-    display: table;
-    margin-left: 0;
-    margin-right: auto;
-    list-style-position: inside;
-}
 
 .button {
     text-decoration: none;
@@ -227,11 +233,6 @@ ol {
     padding: 2px 2px;
 }
 
-.linkk {
-    color: #6CBDEC;
-    text-decoration: underline;
-}
-
 .attention {
     font-weight: bold;
     color: #B5E853;
@@ -239,11 +240,92 @@ ol {
 }
 
 
-/* margin for button */
+/* margin */
 .leftmar {
     margin-left: 30px;
 }
 
+.rightmar {
+    margin-right: 30px;
+}
+
+/* Top bar */
+.navbar {
+    display: flex;
+    list-style: none;
+    text-align: right;
+    align-items: center;
+    overflow: hidden;
+}
+.dropdown{
+    float:left;
+    overflow:hidden;
+}
+.dropdown, .logo, .topbtn {
+  border: none;
+  outline: none;
+  color: #B5E853;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+
+}
+.logo, .topbtn{
+    position: relative;
+  display: inline-block;
+  text-decoration:none;
+}
+.topbtn{
+    font-size: 1.5rem;
+}
+.topbtn:visited{
+ color: green;
+}
+.logo{
+    font-size: 2rem;
+    /* Apparently, rem is better than px */
+}
+
+.logo::before {
+    content: "> ";
+}
+.dropcontent{
+   display: none;
+  position: absolute;
+  background-color: #2A2A2A;
+  min-width: 1rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.logocontent{
+   display: none;
+  position: absolute;
+  background-color: #2A2A2A;
+  min-width: 5rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropcontent, .dropdown:hover .logocontent {
+  display: block; /* Without the comma, it shows what happens to dropcontent when dropdown is hovered */
+}
+.dropcontent a, .logocontent a {
+  color: green;
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.logocontent a{
+    font-size: 2rem;
+}
+.logocontent a:hover, .dropcontent a:hover{
+    background-color: #ddd;
+}
+.logocontent a:hover::before{
+    content: " > ";
+}
 /* font colour*/
 .gray {
     color: #8D8D8D;
@@ -288,11 +370,15 @@ ol {
     font-size: 15px;
 }
 
+/* Mobile View */
 @media (max-width: 600px) {
 
-    /* Mobile view! */
+
     p {
         width: 100%;
     }
 
 }
+
+
+/*End of Mobile View  */
