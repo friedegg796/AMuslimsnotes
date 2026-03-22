@@ -4,14 +4,14 @@ function insertNavigation() {
    <div class="dropdown">
        <button class="logo"> A Muslim's Notes </button>
         <div class="logocontent">
-       <a href="#">Qurandiscs</a>
-      <a href="#">Friedegg796</a>
-      <a href="#">A Muslim's Blog</a>
+       <a href="#">Qurandiscs (WIP)</a>
+      <a href="#">Friedegg796 (WIP)</a>
+      <a href="#">A Muslim's Blog (WIP)</a>
       </div>
      </div>
 
      <div class="dropdown">
-      <a class="topbtn" href="#"> AP </a>
+      <a class="topbtn" href="#"> AP (WIP) </a>
        <div class="dropcontent">
        <a href="#">Biology</a>
       <a href="#">Eng comp</a>
@@ -20,7 +20,7 @@ function insertNavigation() {
       </div>
 
         <div class="dropdown">
-       <a class="topbtn" href="#"> Linux </a>
+       <a class="topbtn" href="#"> Linux (WIP)</a>
         <div class="dropcontent">
        <a href="#">Commands</a>
       <a href="#">Features</a>
@@ -29,11 +29,11 @@ function insertNavigation() {
       </div>
 
         <div class="dropdown">
-       <a class="topbtn" href="#"> Other </a>
+       <a class="topbtn" href="#"> Other (WIP)</a>
         <div class="dropcontent">
-       <a href="#">Qurandiscs</a>
-      <a href="#">Friedegg796</a>
-      <a href="#">A Muslim's Blog</a>
+       <a href="#">(WIP)</a>
+      <a href="#">(WIP)</a>
+      <a href="#">(WIP)</a>
       </div>
       </div>
 
