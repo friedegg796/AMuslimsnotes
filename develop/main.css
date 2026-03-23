@@ -257,75 +257,100 @@ th {
     align-items: center;
     overflow: hidden;
 }
-.dropdown{
-    float:left;
-    overflow:hidden;
+
+.dropdown {
+    float: left;
+    overflow: hidden;
 }
-.dropdown, .logo, .topbtn {
-  border: none;
-  outline: none;
-  color: #B5E853;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+
+.dropdown,
+.logo,
+.topbtn {
+    border: none;
+    outline: none;
+    color: #B5E853;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
 
 }
-.logo, .topbtn{
+
+.logo,
+.topbtn {
     position: relative;
-  display: inline-block;
-  text-decoration:none;
+    display: inline-block;
+    text-decoration: none;
 }
-.topbtn{
+
+.topbtn {
     font-size: 1.5rem;
 }
-.topbtn:visited{
- color: green;
+
+.topbtn:visited {
+    color: green;
 }
-.logo{
+
+.logo {
     font-size: 2rem;
     /* Apparently, rem is better than px */
+}
+
+.logo:visited {
+    color: #B5E853;
 }
 
 .logo::before {
     content: "> ";
 }
-.dropcontent{
-   display: none;
-  position: absolute;
-  background-color: #2A2A2A;
-  min-width: 1rem;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #2A2A2A;
+    min-width: 1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
-.logocontent{
-   display: none;
-  position: absolute;
-  background-color: #2A2A2A;
-  min-width: 5rem;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+
+.logocontent {
+    display: none;
+    position: absolute;
+    background-color: #2A2A2A;
+    min-width: 5rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
-.dropdown:hover .dropcontent, .dropdown:hover .logocontent {
-  display: block; /* Without the comma, it shows what happens to dropcontent when dropdown is hovered */
+
+.dropdown:hover .dropcontent,
+.dropdown:hover .logocontent {
+    display: block;
+    /* Without the comma, it shows what happens to dropcontent when dropdown is hovered */
 }
-.dropcontent a, .logocontent a {
-  color: green;
-  float: none;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+
+.dropcontent a,
+.logocontent a {
+    color: green;
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
-.logocontent a{
+
+.logocontent a {
     font-size: 2rem;
 }
-.logocontent a:hover, .dropcontent a:hover{
+
+.logocontent a:hover,
+.dropcontent a:hover {
     background-color: #ddd;
 }
-.logocontent a:hover::before{
+
+.logocontent a:hover::before {
     content: " > ";
 }
+
 /* font colour*/
 .gray {
     color: #8D8D8D;
