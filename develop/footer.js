@@ -2,30 +2,30 @@
 function insertFooter() {
   return `  <div class="medspace"> </div>
         <hr>
-        <p> Go <a href="./../../AMuslimsnotes/index.html">back?</a></p>
+        <p> <a href="/./AMuslimsnotes/index.html">Back?</a></p>
         <a class="icon" href="https://www.linkedin.com/in/hasnain-a-6481a0342/">
-            <img class="icon" src="./develop/images/linkedin.png" alt="Hasnain Alahi, LinkedIn">
+            <img class="icon" src="/./AMuslimsnotes/develop/images/linkedin.png" alt="Hasnain Alahi, LinkedIn">
         </a>
 
 
         <a class="icon" href="./../../AMuslimsnotes/MISC/bio.html">
-            <img class="icon" src="./develop/images/gmail.png" alt="awanderingmuslim2billion">
+            <img class="icon" src="/./AMuslimsnotes/develop/images/gmail.png" alt="awanderingmuslim2billion">
         </a>
 
 
         <a class="icon" href="mailto:hasnainalahiwork@gmail.com">
-            <img class="icon" src="./develop/images/gmail.png" alt="hasnainalahiwork@gmail.com">
+            <img class="icon" src="/./AMuslimsnotes/develop/images/gmail.png" alt="hasnainalahiwork@gmail.com">
         </a>
 
 
         <a class="icon" href="https://mahfil.net/channel/hasnain-alahi">
-            <img class="icon" src="./develop/images/gmail.png" alt="AwanderingMuslim">
+            <img class="icon" src="/./AMuslimsnotes/develop/images/gmail.png" alt="AwanderingMuslim">
         </a>
         <a class="icon" href="https://github.com/friedegg796">
-            <img class="icon" src="./develop/images/github.png" alt="friedegg796">
+            <img class="icon" src="/./AMuslimsnotes/develop/images/github.png" alt="friedegg796">
         </a>
         <a class="icon" href="https://github.com/friedegg796">
-            <img class="icon" src="./develop/images/youtube.png" alt="friedegg796">
+            <img class="icon" src="/./AMuslimsnotes/develop/images/youtube.png" alt="friedegg796">
         </a>`;
 } // we use backticks--` `-- to allow for the usage of quotes.
 

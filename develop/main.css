@@ -48,6 +48,9 @@ p {
 }
 
 /* links/a tags */
+a{
+    text-decoration:none;
+}
 /* unvisited */
 a:link {
     color: green;
