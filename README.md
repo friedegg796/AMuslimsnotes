@@ -1,4 +1,4 @@
-# just-the-docs-template
+# A Muslim's Notes
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
