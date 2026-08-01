@@ -1,5 +1,13 @@
 # A Muslim's Notes
 
+A Jekyll website using the Just the Docs theme that houses my notes.
+
+Why Just the Docs? Because I wanted to put my notes in more of a documentation-style format.
+
+
+
+### Instructions (for self, because I might need this)
+
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
 - uses the [Just the Docs] theme;
