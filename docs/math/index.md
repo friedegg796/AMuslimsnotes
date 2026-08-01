@@ -6,5 +6,6 @@ nav_order: 3
 
 # Math
 
-Math
+The section containing Math, numbers and stuff.
+
 {: .fs-6 .fw-300 }
