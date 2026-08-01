@@ -1,4 +1,6 @@
-# Integrals
+---
+title: Integrals
+---
 
 
 WIP
