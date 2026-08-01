@@ -1,5 +1,6 @@
 ---
 title: Integrals
+layout: default
 ---
 
 
